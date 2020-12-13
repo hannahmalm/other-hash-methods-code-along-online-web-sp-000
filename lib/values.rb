@@ -12,3 +12,5 @@ def get_the_values(groceries)
  groceries.values.flatten
  binding.pry 
 end
+
+#Using .values.flatten will return only the values without their keys in a one-dimensional array 
