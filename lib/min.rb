@@ -10,6 +10,7 @@ require 'pry'
 
 def get_the_min(groceries)
   groceries.values.flatten.min 
+  binding.pry 
 end
 
 #want to use the min method to collect the value that comes first  
